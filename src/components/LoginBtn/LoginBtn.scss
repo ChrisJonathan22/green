@@ -1,0 +1,20 @@
+@import '../mixins.scss';
+
+.login__btn {
+    display: block;
+    background-color: #FFFFFF;
+    color: #464446;
+    margin-top: 3em;
+    padding: 0.7em 2em;
+    border: 1px #e7e7e7 solid;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #30af5f;
+        color: #FFFFFF;
+        box-shadow: 0 4px 10px rgba(0,0,0,.115);
+        @include transition(all 0.5s);
+    }
+}
